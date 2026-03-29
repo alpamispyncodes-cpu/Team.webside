@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <title>Team Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Team Shop</h1>
+  <button onclick="toggleCart()">Savatcha (<span id="count">0</span>)</button>
+</header>
+
+<div id="products"></div>
+
+<div id="cart" class="hidden">
+  <h2>Savatcha</h2>
+  <ul id="cartItems"></ul>
+  <button onclick="buy()">Sotib olish</button>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
